@@ -1,0 +1,14 @@
+git reset --hard HEAD~1 : To completely delete your last commit (local + remote)
+
+git reset --soft HEAD~1 : To undo your last commit, but keep the changes that you made as "unstaged"
+
+git reset HEAD~1 : To undo your last commit, but keep the changes that you made in your working directory
+
+⁡⁣⁣⁢if i push project to https://github.com/ramichabchoub/react-rtk
+and i want to push another project from another folder to that repo in new branch:⁡
+git checkout -b new-branch (-b is to force create new branch)
+git push origin :old-branch (: is to delete old branch)
+git push origin new-branch (to push new branch)
+
+clone spicific branch from repo:
+git clone -b branch-name [repo-url]
